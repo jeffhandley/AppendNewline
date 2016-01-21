@@ -6,8 +6,8 @@ Place a comma at the end of the cursor's current line(s) by pressing:
 + <kbd>Ctrl</kbd>+<kbd>,</kbd> on Windows and Linux
 
 You can also automatically go to the next line at the same time with these shortcuts:
-+ <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>,</kbd> on OS X
-+ <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>,</kbd> on Windows and Linux
++ <kbd>Command</kbd>+<kbd>Option</kbd>+<kbd>Shift</kbd>+<kbd>,</kbd> on OS X
++ <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>,</kbd> on Windows and Linux
 
 ## Other Features
 + If a line already ends with a comma, no comma will be added
