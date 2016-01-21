@@ -2,8 +2,8 @@
 Sublime package to append commas at the end of a line.
 
 Place a comma at the end of the cursor's current line(s) by pressing:
-+ <kbd>Command</kbd>+<kbd>,</kbd> on OS X
-+ <kbd>Ctrl</kbd>+<kbd>,</kbd> on Windows and Linux
++ <kbd>Command</kbd>+<kbd>Option</kbd>+<kbd>,</kbd> on OS X
++ <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>,</kbd> on Windows and Linux
 
 You can also automatically go to the next line at the same time with these shortcuts:
 + <kbd>Command</kbd>+<kbd>Option</kbd>+<kbd>Shift</kbd>+<kbd>,</kbd> on OS X
