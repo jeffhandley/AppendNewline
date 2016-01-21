@@ -1,13 +1,13 @@
 import sublime_plugin
 
-class AppendSemiColonCommand(sublime_plugin.TextCommand):
+class AppendCommaCommand(sublime_plugin.TextCommand):
   def run(self, edit, **args):
 
-    def insert_semicolon(point):
-      self.view.insert(edit, point, ';')
+    def insert_comma(point):
+      self.view.insert(edit, point, ',')
 
-    def is_semicolon(point):
-      return self.view.substr(point) == ';'
+    def is_comma(point):
+      return self.view.substr(point) == ','
 
     for region in self.view.sel():
       line = self.view.line(region)
@@ -29,11 +29,11 @@ class AppendSemiColonCommand(sublime_plugin.TextCommand):
         while(self.view.substr(point).isspace() and point != line_begin): # go to the first character before the comment that isn't whitespace
           point -= 1
 
-        if not self.view.substr(point).isspace() and not is_semicolon(point):
-          insert_semicolon(point + 1)
+        if not self.view.substr(point).isspace() and not is_comma(point):
+          insert_comma(point + 1)
 
-      elif not is_semicolon(line_end - 1):
-        insert_semicolon(line_end)
+      elif not is_comma(line_end - 1):
+        insert_comma(line_end)
 
     if ('enter_new_line' in args and args['enter_new_line'] == 'true'):
       self.view.run_command("run_macro_file", {"file": "Packages/Default/Add Line.sublime-macro"}) # enter new line
