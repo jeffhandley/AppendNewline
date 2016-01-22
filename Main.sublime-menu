@@ -12,7 +12,7 @@
         "children":
         [
           {
-            "caption": "AppendComma",
+            "caption": "AppendSemiColon",
             "children":
             [
               {
