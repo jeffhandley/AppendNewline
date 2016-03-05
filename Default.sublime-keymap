@@ -1,4 +1,3 @@
 [
-  { "keys": ["ctrl+alt+,"], "command": "append_comma" },
-  { "keys": ["ctrl+alt+shift+,"], "command": "append_comma", "args": {"enter_new_line": "true"} }
+  { "keys": ["ctrl+alt+enter"], "command": "append_newline" }
 ]
